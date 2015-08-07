@@ -22,10 +22,10 @@
 
         <section>
             <h3><a href="#overview">Overview</a></h3>
-            <p>You've been given some product data in the file located at <code>data/products.json</code>, and from this dataset, you're going to create a page of searchable and filterable products! You can style the project and layout the products as you
+            <p>You've been given some product data in the file located at <code>data/product.json</code>, and from this dataset, you're going to create a page of searchable and filterable products! You can style the project and layout the products as you
                 see fit.</p>
 
-            <p>Have a look at the data available <code>data/products.json</code> - this will give you an idea of the ways in which a user can search or filter on products by type, search for products by description keyword queries, order by cost, and maybe
+            <p>Have a look at the data available <code>data/product.json</code> - this will give you an idea of the ways in which a user can search or filter on products by type, search for products by description keyword queries, order by cost, and maybe
                 build in other features, like if there's less than 10 products, show <strong>"Hurry, only x left in stock!"</strong>. The page should feel like an Amazon product search experience.</p>
 
             <p>You'll want to make use of forms and layouts, and of course, your functional programming chops! Below we've listed a set of review-resources to help you in your work.</p>
@@ -48,7 +48,7 @@
             <h4>Load the Product Data</h4>
             <ol>
                 <li>
-                    <input type="checkbox">We need to first load our data before we can display it in any way: our product data is located in a file at <code>data/products.json</code>. We can use the <code>$.getJSON()</code> method to load our data. Google it, or find examples
+                    <input type="checkbox">We need to first load our data before we can display it in any way: our product data is located in a file at <code>data/product.json</code>. We can use the <code>$.getJSON()</code> method to load our data. Google it, or find examples
                     from our previous projects.
                 </li>
             </ol>
@@ -56,8 +56,13 @@
             <h4>Display the List of Product</h4>
             <ol>
                 <li>
-                    <input type="checkbox">Now that we have our data loaded, we need to display it in some fancy way to our user. Make us of jQuery to build a list of product! First thing to do would be to get the data on the page, next, make it pretty! Review all the material
-                    below for ideas!
+                    <input type="checkbox">Now that we have our data loaded, we need to display it in some fancy way to our user. Make us of jQuery to build a list of product! First thing to do would be to get the data on the page, next, make it pretty! Review all the material below for ideas!
+                </li>
+                <li>
+                    <input type="checkbox">Note that there are also product thumbnails and full size images within the <code>img/product</code> directory!  The file names of the images are referenced in the <code>product.json</code> file as, <code>image</code>, so you should use them in your product profiles.
+                </li>
+                <li>
+                    <input type="checkbox">Finally, because you have both a thumbnail and full size image for the products, both named the same with respective thumbnails in the directory <code>img/product/thumbs</code>, you'll receive big bonus points if you design you product project to show product details when a user clicks on a product within the list.
                 </li>
             </ol>
             <hr>
