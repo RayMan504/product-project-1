@@ -1,6 +1,9 @@
 (function (window) {
     window.opspark = window.opspark || {};
     
+    /*
+     * Takes a target DOM element on which to load the pacifier, optional options.
+     */
     window.opspark.makePacifier = function (target, options) {
         options = (options ? options : {
               lines: 13 // The number of lines to draw
